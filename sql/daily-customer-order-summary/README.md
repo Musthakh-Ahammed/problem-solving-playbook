@@ -53,7 +53,7 @@ CREATE TABLE Orders (
 | Column Name   | Description                                |
 |--------------|--------------------------------------------|
 | customer_id  | Unique identifier of the customer          |
-| order_date   | Order date (DATE only)                     |
+| order_date   | Order date (DATE)                     |
 | total_orders | Number of completed orders for the day     |
 | total_amount | Total amount spent by the customer per day |
 
