@@ -1,4 +1,4 @@
-# Daily Customer Order Summary (Deduplication & Aggregation)
+# Daily Customer Order Summary (Deduplication and Aggregation)
 
 **Domain:** SQL  
 **Technology:** Microsoft SQL Server (T-SQL)  
