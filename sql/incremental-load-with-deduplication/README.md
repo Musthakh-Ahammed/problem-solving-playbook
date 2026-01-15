@@ -81,5 +81,3 @@ CREATE TABLE orders_fact (
 - The expected output reflects the **latest event per order** after processing incremental data.
 - The table always maintains the **current state** of orders and does not store historical versions.
 - Late-arriving records are handled by comparing timestamps before applying updates.
-
----
