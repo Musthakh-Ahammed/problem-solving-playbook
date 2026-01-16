@@ -39,7 +39,6 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - One problem per folder
 - Each problem focuses on:
   - Business requirement
-  - Schema design
   - Correct grain
   - Query efficiency
 
