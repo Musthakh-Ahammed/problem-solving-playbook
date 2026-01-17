@@ -22,6 +22,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Returning Customers](./returning-customers)**  
   Identifying repeat customers using aggregation and business rules.
 
+- 📂 **[Sessionization & Time-Based Aggregation](./sessionization-and-time-based-aggregation)**  
+  Identify sessions and calculate session-level metrics.
+
 ---
 
 ## 🎯 Why This Repo Exists
