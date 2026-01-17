@@ -23,7 +23,7 @@ The goal is **depth over volume** — clean logic, correct results, and performa
   Identifying repeat customers using aggregation and business rules.
 
 - 📂 **[Sessionization & Time-Based Aggregation](./sessionization-and-time-based-aggregation)**  
-  Identify sessions and calculate session-level metrics.
+  Identifying sessions and calculate session-level metrics.
 
 ---
 
