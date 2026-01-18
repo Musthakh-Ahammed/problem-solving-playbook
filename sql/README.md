@@ -24,6 +24,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 
 - 📂 **[Sessionization & Time-Based Aggregation](./sessionization-and-time-based-aggregation)**  
   Identifying sessions and calculate session-level metrics.
+  
+- 📂 **[Customer Order Gap Analysis](./customer-order-gap-analysis)**  
+  Calculating order gaps and identify customers who are showing signs of churn risk.
 
 ---
 
