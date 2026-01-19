@@ -1,5 +1,4 @@
-# SQL Daily Practice 
-## Latest Active Price Per Product (Effective Dating)
+# Latest Active Price Per Product (Effective Dating)
 
 **Role:** Data Engineer  
 **Database:** Microsoft SQL Server (T-SQL)  
