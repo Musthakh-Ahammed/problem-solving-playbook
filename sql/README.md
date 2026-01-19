@@ -28,6 +28,10 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Customer Order Gap Analysis](./customer-order-gap-analysis)**  
   Calculating order gaps and identify customers who are showing signs of churn risk.
 
+- 📂 **[Latest Active Price Per Product](./latest-active-price-per-product)**  
+  Generating a report that shows the latest active price per product as of a given date.
+
+
 ---
 
 ## 🎯 Why This Repo Exists
