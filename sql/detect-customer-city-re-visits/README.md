@@ -1,4 +1,4 @@
-# SQL Daily Practice – Detect Customer City Re-Visits
+# Detect Customer City Re-Visits
 
 **Difficulty:** Intermediate  
 **Database:** Microsoft SQL Server (T-SQL)  
