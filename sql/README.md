@@ -31,6 +31,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Latest Active Price Per Product](./latest-active-price-per-product)**  
   Generating a report that shows the latest active price per product as of a given date.
 
+- 📂 **[Detect Customer City Re-Visits](./detect-customer-city-re-visits)**  
+  Identifying customers who returned to a city they had lived in before, along with the date they returned.
+
 
 ---
 
