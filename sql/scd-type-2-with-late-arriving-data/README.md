@@ -81,3 +81,39 @@ VALUES
 (102, 'Alice Lee',  'Chicago', '2024-01-25 14:00:00'),
 (103, 'Mark Davis', 'Austin',  '2024-01-22 11:00:00');
 ```
+---
+## Business Requirements
+
+Implement **Slowly Changing Dimension (SCD) Type 2** logic for the `dim_customer` table based on incoming updates.
+
+The solution must satisfy the following rules:
+
+1. Maintain **full historical records** for each customer.
+2. Ensure **non-overlapping effective date ranges** for each customer.
+3. Maintain **exactly one current record** per customer (`is_current = 1`).
+4. Handle **late-arriving updates** correctly (updates may arrive out of chronological order).
+5. Insert a **new SCD row only when a tracked attribute changes**  
+   (tracked attributes: `customer_name`, `city`).
+6. If an incoming record has the **same attribute values as the immediately previous state**, ignore it.
+7. If a customer moves **X → Y → X**, create a **new SCD row** for the second `X`.
+8. Insert **new customers** correctly with an open-ended record.
+9. Use **deterministic ordering** when multiple changes share the same timestamp.
+10. Set `effective_to` of the current record to `'9999-12-31'`.
+
+---
+## Expected Output (Logical)
+
+### Resulting `dim_customer` for `customer_id = 101`
+
+| customer_id | customer_name | city      | effective_from       | effective_to         | is_current |
+|------------:|---------------|-----------|----------------------|----------------------|------------|
+| 101 | John Smith | New York | 2024-01-01 00:00:00 | 2024-01-18 09:00:00 | 0 |
+| 101 | John Smith | Seattle  | 2024-01-18 09:00:00 | 2024-01-20 10:00:00 | 0 |
+| 101 | John Smith | Boston   | 2024-01-20 10:00:00 | 9999-12-31 00:00:00 | 1 |
+
+### Resulting `dim_customer` for other customers
+
+| customer_id | customer_name | city     | effective_from       | effective_to         | is_current |
+|------------:|---------------|----------|----------------------|----------------------|------------|
+| 102 | Alice Lee  | Chicago | 2024-01-05 00:00:00 | 9999-12-31 00:00:00 | 1 |
+| 103 | Mark Davis | Austin  | 2024-01-22 11:00:00 | 9999-12-31 00:00:00 | 1 |
