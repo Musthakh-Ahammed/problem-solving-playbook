@@ -35,7 +35,7 @@ The goal is **depth over volume** — clean logic, correct results, and performa
   Identifying customers who returned to a city they had lived in before, along with the date they returned.
 
 - 📂 **[SCD Type 2 with Late-Arriving Data](./scd-type-2-with-late-arriving-data)**  
-  ImplementING a robust SCD Type-2 customer dimension in SQL Server that correctly handles late-arriving updates, attribute reversions, and full historical tracking using temporal logic.
+  Implementing a robust SCD Type-2 customer dimension in SQL Server that correctly handles late-arriving updates, attribute reversions, and full historical tracking using temporal logic.
 
 
 ---
