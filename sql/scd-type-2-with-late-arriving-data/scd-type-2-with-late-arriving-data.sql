@@ -79,7 +79,7 @@ cte_updated_scd AS (
         customer_name,
         city,
         effective_from,
-        ISNULL(effective_to, '9999-12-31') AS effective_to,
+        ISNULL(effective_to, CAST('9999-12-31 23:59:59.999' AS DATETIME)) AS effective_to,
         CASE 
             WHEN effective_to IS NULL THEN 1
             ELSE 0 
