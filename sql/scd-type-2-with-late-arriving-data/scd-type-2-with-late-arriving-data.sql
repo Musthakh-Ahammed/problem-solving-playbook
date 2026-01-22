@@ -122,4 +122,5 @@ LEFT JOIN dim_customer AS dim
     ON 
         dim.customer_id = scd.customer_id AND
         dim.effective_from = scd.effective_from
+        -- If this (customer_id, effective_from) state does not already exist, insert it.
 WHERE dim.customer_id IS NULL;
