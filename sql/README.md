@@ -37,7 +37,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[SCD Type 2 with Late-Arriving Data](./scd-type-2-with-late-arriving-data)**  
   Implementing a robust SCD Type-2 customer dimension in SQL Server that correctly handles late-arriving updates, attribute reversions, and full historical tracking using temporal logic.
 
-
+- 📂 **[Rolling 7-Day Active Users](./rolling-7-day-active-users)**  
+  Calculating rolling 7-day active users by generating a calendar date spine and counting distinct users within a date-based rolling window in SQL Server.
+  
 ---
 
 ## 🎯 Why This Repo Exists
