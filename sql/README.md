@@ -39,6 +39,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 
 - 📂 **[Rolling 7-Day Active Users](./rolling-7-day-active-users)**  
   Calculating rolling 7-day active users by generating a calendar date spine and counting distinct users within a date-based rolling window in SQL Server.
+
+- 📂 **[Identify Inactive Customers Using Order Gaps](./identify-inactive-customers-using-order-gaps)**  
+  Calculating rolling 7-day active users by generating a calendar date spine and counting distinct users within a date-based rolling window in SQL Server.
   
 ---
 
