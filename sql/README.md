@@ -41,7 +41,7 @@ The goal is **depth over volume** — clean logic, correct results, and performa
   Calculating rolling 7-day active users by generating a calendar date spine and counting distinct users within a date-based rolling window in SQL Server.
 
 - 📂 **[Identify Inactive Customers Using Order Gaps](./identify-inactive-customers-using-order-gaps)**  
-  Calculating rolling 7-day active users by generating a calendar date spine and counting distinct users within a date-based rolling window in SQL Server.
+  Identifying customers who had a gap of 30 or more days between consecutive orders using T-SQL window functions.
   
 ---
 
