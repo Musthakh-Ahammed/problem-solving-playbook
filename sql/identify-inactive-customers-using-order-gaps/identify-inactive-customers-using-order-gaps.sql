@@ -23,4 +23,4 @@ SELECT
     order_date AS next_order_date,
     gap_in_days
 FROM cte_gap_in_days
-WHERE gap_in_days >= 30
+WHERE gap_in_days >= 30;
