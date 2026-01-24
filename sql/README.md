@@ -42,6 +42,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 
 - 📂 **[Identify Inactive Customers Using Order Gaps](./identify-inactive-customers-using-order-gaps)**  
   Identifying customers who had a gap of 30 or more days between consecutive orders using T-SQL window functions.
+
+- 📂 **[First Purchase per Product per Customer](./first-purchase-per-product-per-customer)**  
+  Finding the first time each customer purchased each product, along with the corresponding order ID, using T-SQL.
   
 ---
 
