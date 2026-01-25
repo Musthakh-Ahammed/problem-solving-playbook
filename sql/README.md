@@ -45,6 +45,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 
 - 📂 **[First Purchase per Product per Customer](./first-purchase-per-product-per-customer)**  
   Finding the first time each customer purchased each product, along with the corresponding order ID, using T-SQL.
+
+- 📂 **[Top-Selling Product per Day](./top-selling-product-per-day)**  
+  Identifying the highest-revenue product for each day using aggregated sales data in T-SQL.
   
 ---
 
