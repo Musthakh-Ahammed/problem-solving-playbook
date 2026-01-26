@@ -52,7 +52,6 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Repeat Customers Within 7 Days](./repeat-customers-within-7-days)**  
   Identifying customers who placed consecutive orders within 7 days using T-SQL window functions.
 
-  
 ---
 
 ## 🎯 Why This Repo Exists
