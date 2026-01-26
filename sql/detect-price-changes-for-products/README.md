@@ -27,3 +27,43 @@ CREATE TABLE product_price_history (
     price        DECIMAL(10,2),
     effective_dt DATE
 );
+```
+---
+## Sample Data
+
+### `product_price_history`
+
+| product_id | price | effective_dt |
+|-----------|-------|--------------|
+| 101 | 500.00 | 2024-01-01 |
+| 101 | 500.00 | 2024-01-10 |
+| 101 | 550.00 | 2024-02-01 |
+| 101 | 600.00 | 2024-03-01 |
+| 102 | 300.00 | 2024-01-05 |
+| 102 | 300.00 | 2024-02-01 |
+| 102 | 320.00 | 2024-03-10 |
+
+---
+## Business Requirement
+
+Write a **T-SQL query (Microsoft SQL Server)** to identify **only the points in time when a product’s price actually changed**.
+
+The query must:
+
+- Evaluate price history **per product**
+- Compare each price with the **previous price** using `effective_dt` ordering
+- Ignore consecutive records where the price **remains the same**
+- Return the **previous price**, **new price**, and the **date of change**
+- Use **T-SQL–specific syntax**
+- Be **performance-aware**
+- Not modify the source data
+
+---
+
+## Expected Output
+
+| product_id | old_price | new_price | change_date |
+|-----------|-----------|-----------|-------------|
+| 101 | 500.00 | 550.00 | 2024-02-01 |
+| 101 | 550.00 | 600.00 | 2024-03-01 |
+| 102 | 300.00 | 320.00 | 2024-03-10 |
