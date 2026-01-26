@@ -43,3 +43,24 @@ CREATE TABLE customer_orders (
 | 6 | 103 | 2024-01-10 | 200.00 |
 
 ---
+## Business Requirement
+
+Write a **T-SQL query (Microsoft SQL Server)** to identify **repeat customers**, defined as customers who placed a **consecutive order within 7 days** of their previous order.
+
+The query must:
+
+- Evaluate orders **per customer**
+- Compare **consecutive order dates**
+- Calculate the number of days between orders using `order_date`
+- Identify cases where the gap is **7 days or less**
+- Ignore customers with **only one order**
+- Use **T-SQL–specific syntax**
+- Be **performance-aware**
+
+---
+
+## Expected Output
+
+| customer_id | previous_order_date | repeat_order_date | days_between_orders |
+|------------|---------------------|-------------------|---------------------|
+| 101 | 2024-01-01 | 2024-01-05 | 4 |
