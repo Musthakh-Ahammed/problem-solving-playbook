@@ -48,6 +48,10 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 
 - 📂 **[Top-Selling Product per Day](./top-selling-product-per-day)**  
   Identifying the highest-revenue product for each day using aggregated sales data in T-SQL.
+
+- 📂 **[Repeat Customers Within 7 Days](./repeat-customers-within-7-days)**  
+  Identifying customers who placed consecutive orders within 7 days using T-SQL window functions.
+
   
 ---
 
