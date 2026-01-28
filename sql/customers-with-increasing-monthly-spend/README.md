@@ -47,3 +47,29 @@ CREATE TABLE customer_payments (
 | 10 | 203 | 2024-03-18 | 300.00 |
 
 ---
+## Business Requirement
+
+Write a **T-SQL query (Microsoft SQL Server)** to identify customers whose **total monthly spending is strictly increasing for at least three consecutive months**.
+
+The query must:
+
+- Aggregate payments **per customer per calendar month**
+- Compare spending **only between consecutive months**
+- Ensure spending is **strictly increasing**
+- Detect sequences of **at least 3 consecutive months**
+- Return:
+  - `customer_id`
+  - `start_month`
+  - `end_month`
+- Use **T-SQL–specific syntax**
+- Be **performance-aware**
+- Not modify the source data
+
+---
+
+## Expected Output
+
+| customer_id | start_month | end_month |
+|------------|------------|-----------|
+| 201 | 2024-01-01 | 2024-03-01 |
+| 203 | 2024-01-01 | 2024-03-01 |
