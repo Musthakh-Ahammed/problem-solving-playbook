@@ -55,7 +55,7 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Detect Price Changes for Products](./detect-price-changes-for-products)**  
   Detecting and reporting product price changes over time by comparing each price to its previous value using T-SQL window functions.
 
-- 📂 **[Customers with Increasing Monthly Spend](./customers-with-increasing-monthly-spend)** 
+- 📂 **[Customers with Increasing Monthly Spend](./customers-with-increasing-monthly-spend)**  
   Identifying customers whose total monthly spending increases for at least three consecutive months using T-SQL window functions.
 
 ---
