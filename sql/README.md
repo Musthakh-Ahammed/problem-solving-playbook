@@ -49,10 +49,10 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Top-Selling Product per Day](./top-selling-product-per-day)**  
   Identifying the highest-revenue product for each day using aggregated sales data in T-SQL.
 
-- 📂 **[Repeat Customers Within 7 Days](./repeat-customers-within-7-days)** 
+- 📂 **[Repeat Customers Within 7 Days](./repeat-customers-within-7-days)**  
   Identifying customers who placed consecutive orders within 7 days using T-SQL window functions.
 
-- 📂 **[Detect Price Changes for Products](./detect-price-changes-for-products)** 
+- 📂 **[Detect Price Changes for Products](./detect-price-changes-for-products)**  
   Detecting and reporting product price changes over time by comparing each price to its previous value using T-SQL window functions.
 
 - 📂 **[Customers with Increasing Monthly Spend](./customers-with-increasing-monthly-spend)** 
