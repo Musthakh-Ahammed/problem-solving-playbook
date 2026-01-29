@@ -58,6 +58,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Customers with Increasing Monthly Spend](./customers-with-increasing-monthly-spend)**  
   Identifying customers whose total monthly spending increases for at least three consecutive months using T-SQL window functions.
 
+- 📂 **[Revenue Decline Streak Analysis](./revenue-decline-streak-analysis)**  
+  Identifying consecutive revenue decline streaks per product by detecting strict day-over-day decreases and aggregating streak-level impact using T-SQL window functions.
+
 ---
 
 ## 🎯 Why This Repo Exists
