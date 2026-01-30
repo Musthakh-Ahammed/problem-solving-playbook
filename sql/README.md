@@ -61,6 +61,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Revenue Decline Streak Analysis](./revenue-decline-streak-analysis)**  
   Identifying consecutive revenue decline streaks per product by detecting strict day-over-day decreases and aggregating streak-level impact using T-SQL window functions.
 
+- 📂 **[First-Time vs Returning Customers (Monthly)](./first-time-vs-returning-customers-monthly)**  
+  Identifying consecutive revenue decline streaks per product by detecting strict day-over-day decreases and aggregating streak-level impact using T-SQL window functions.
+
 ---
 
 ## 🎯 Why This Repo Exists
