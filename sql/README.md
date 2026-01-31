@@ -64,6 +64,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[First-Time vs Returning Customers (Monthly)](./first-time-vs-returning-customers-monthly)**  
   Classifying customers as first-time or returning each month by identifying their first order month and aggregating customer counts at a monthly level using T-SQL.
 
+- 📂 **[Customers Who Churned After First Purchase](./customers-who-churned-after-first-purchase)**  
+  Identifying customers who churned after their first purchase by selecting those with exactly one order and extracting their purchase month and amount using T-SQL window functions.
+
 ---
 
 ## 🎯 Why This Repo Exists
