@@ -62,10 +62,10 @@ The goal is **depth over volume** — clean logic, correct results, and performa
   Identifying consecutive revenue decline streaks per product by detecting strict day-over-day decreases and aggregating streak-level impact using T-SQL window functions.
 
 - 📂 **[First-Time vs Returning Customers (Monthly)](./first-time-vs-returning-customers-monthly)**  
-  Classifying customers as first-time or returning each month by identifying their first order month and aggregating customer counts at a monthly level using T-SQL.
+  Classifying customers as first-time or returning each month by identifying their first order month and aggregating customer counts at a monthly level.
 
 - 📂 **[Customers Who Churned After First Purchase](./customers-who-churned-after-first-purchase)**  
-  Identifying customers who churned after their first purchase by selecting those with exactly one order and extracting their purchase month and amount using T-SQL window functions.
+  Identifying customers who churned after their first purchase by selecting those with exactly one order and extracting their purchase month and amount.
 
 ---
 
