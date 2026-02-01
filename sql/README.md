@@ -67,6 +67,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Customers Who Churned After First Purchase](./customers-who-churned-after-first-purchase)**  
   Identifying customers who churned after their first purchase by selecting those with exactly one order and extracting their purchase month and amount.
 
+- 📂 **[Customers With Increasing Monthly Spend Trend](./customers-with-increasing-monthly-spend-trend)**  
+  Identifying customers whose total monthly spending increases for at least three consecutive calendar months using T-SQL window functions and time-series continuity checks.
+
 ---
 
 ## 🎯 Why This Repo Exists
