@@ -70,6 +70,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Customers With Increasing Monthly Spend Trend](./customers-with-increasing-monthly-spend-trend)**  
   Identifying customers whose total monthly spending increases for at least three consecutive calendar months using T-SQL window functions and time-series continuity checks.
 
+- 📂 **[Customer Reactivation After Inactivity](./customer-reactivation-after-inactivity)**  
+  Identifying customer reactivation events by detecting orders placed after at least 60 days of inactivity using T-SQL window functions.
+
 ---
 
 ## 🎯 Why This Repo Exists
