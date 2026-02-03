@@ -73,6 +73,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Customer Reactivation After Inactivity](./customer-reactivation-after-inactivity)**  
   Identifying customer reactivation events by detecting orders placed after at least 60 days of inactivity using T-SQL window functions.
 
+- 📂 **[Detect Consecutive Login Streaks](./detect-consecutive-login-streaks)**  
+  Identifying users with at least three consecutive login days using the date minus row_number pattern in T-SQL.
+
 ---
 
 ## 🎯 Why This Repo Exists
