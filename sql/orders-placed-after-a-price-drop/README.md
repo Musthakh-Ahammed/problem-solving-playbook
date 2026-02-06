@@ -1,4 +1,4 @@
-# SQL Daily Practice – Orders Placed After a Price Drop
+# Orders Placed After a Price Drop
 
 **Difficulty:** Intermediate  
 **Database:** Microsoft SQL Server (T-SQL)  
