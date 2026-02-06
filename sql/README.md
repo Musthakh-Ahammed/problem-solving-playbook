@@ -77,7 +77,10 @@ The goal is **depth over volume** — clean logic, correct results, and performa
   Identifying users with at least three consecutive login days using the date minus row_number pattern in T-SQL.
 
 - 📂 **[First Successful Transaction After Failure](./first-successful-transaction-after-failure)**  
-  Identify the first successful transaction that immediately follows a failed transaction for each customer.
+  Identifying the first successful transaction that immediately follows a failed transaction for each customer.
+
+- 📂 **[Orders Placed After a Price Drop](./orders-placed-after-a-price-drop)**  
+  Identifying orders placed after a product price drop by matching each order to the latest effective price and comparing it with the previous price.
 
 ---
 
