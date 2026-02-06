@@ -62,5 +62,28 @@ CREATE TABLE orders (
 
 ---
 
-);
+## Business Requirement
+
+Write a **T-SQL query (Microsoft SQL Server)** to identify **orders placed after a product price drop**.
+
+The query must:
+
+- Evaluate **price history per product**
+- Detect **true price drops** (current price < previous price)
+- Match each order to the **price effective at the time of order**
+- Return only orders where the order occurred **after a price reduction**
+- Ignore orders placed when the price was unchanged or increased
+- Use **T-SQL–specific syntax**
+- Not modify the source data
+- Be **performance-aware**
+
+---
+
+## Expected Output
+
+| customer_id | product_id | order_id | order_date | new_price |
+|-------------|------------|----------|------------|-----------|
+| 401 | 501 | 1 | 2024-02-02 | 900 |
+| 403 | 501 | 3 | 2024-03-05 | 850 |
+| 404 | 502 | 4 | 2024-03-12 | 450 |
 
