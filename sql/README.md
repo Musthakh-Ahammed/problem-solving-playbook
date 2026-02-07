@@ -82,6 +82,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Orders Placed After a Price Drop](./orders-placed-after-a-price-drop)**  
   Identifying orders placed after a product price drop by matching each order to the latest effective price and comparing it with the previous price.
 
+- 📂 **[Latest Non-Cancelled Shipment per Order](./latest-non-cancelled-shipment-per-order)**  
+  Retrieving the most recent non-cancelled shipment for each order using T-SQL window functions.
+
 ---
 
 ## 🎯 Why This Repo Exists
