@@ -85,6 +85,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Latest Non-Cancelled Shipment per Order](./latest-non-cancelled-shipment-per-order)**  
   Retrieving the most recent non-cancelled shipment for each order using T-SQL window functions.
 
+- 📂 **[SLA Breaches & Backlog Detection](./sla-breaches-and-backlog-detection)**  
+  Detecting order-level SLA breaches and identify continuous system-level backlog periods by modeling overdue orders as a daily state using T-SQL window functions.
+
 ---
 
 ## 🎯 Why This Repo Exists
