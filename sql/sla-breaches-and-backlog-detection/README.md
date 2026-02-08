@@ -1,4 +1,4 @@
-# SQL Daily Practice — SLA Breaches & Backlog Detection
+# SLA Breaches & Backlog Detection
 
 **Role:** Data Engineer  
 **Database:** Microsoft SQL Server (T-SQL)  
