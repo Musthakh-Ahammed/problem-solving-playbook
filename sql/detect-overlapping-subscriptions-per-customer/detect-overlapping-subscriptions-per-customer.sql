@@ -35,7 +35,7 @@ FROM normalized_subs s1
 JOIN normalized_subs s2
     ON s1.customer_id = s2.customer_id
    AND s1.subscription_id <> s2.subscription_id
-   AND s1.start_date < s2.end_date      -- overlap condition
-   AND s2.start_date < s1.end_date      -- overlap condition
-   AND s1.start_date <> s2.end_date     -- exclude back-to-back
+   AND s1.start_date < s2.end_date               -- overlap condition
+   AND s2.start_date < s1.end_date               -- overlap condition
+   AND s1.start_date <> s2.end_date              -- exclude back-to-back
    AND s2.start_date <> s1.end_date;
