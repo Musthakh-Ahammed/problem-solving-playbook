@@ -88,6 +88,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[SLA Breaches & Backlog Detection](./sla-breaches-and-backlog-detection)**  
   Detecting order-level SLA breaches and identify continuous system-level backlog periods by modeling overdue orders as a daily state using T-SQL window functions.
 
+- 📂 **[Detect Overlapping Subscriptions per Customer](./detect-overlapping-subscriptions-per-customer)**  
+  Identifying subscriptions that overlap in time for the same customer by detecting intersecting date ranges in T-SQL.
+
 ---
 
 ## 🎯 Why This Repo Exists
