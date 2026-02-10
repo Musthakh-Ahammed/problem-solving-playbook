@@ -91,6 +91,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Detect Overlapping Subscriptions per Customer](./detect-overlapping-subscriptions-per-customer)**  
   Identifying subscriptions that overlap in time for the same customer by detecting intersecting date ranges in T-SQL.
 
+- 📂 **[Latest Record per Customer (Incremental Load)](./latest-record-per-customer-incremental-load)**  
+  Deduplicate incremental customer profile records to retain only the latest update per customer using T-SQL window functions.
+
 ---
 
 ## 🎯 Why This Repo Exists
