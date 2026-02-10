@@ -1,4 +1,4 @@
-# SQL Daily Practice – Latest Record per Customer (Incremental Load)
+# Latest Record per Customer (Incremental Load)
 
 **Difficulty:** Intermediate  
 **Database:** Microsoft SQL Server (T-SQL)  
@@ -34,3 +34,42 @@ CREATE TABLE customer_profile_staging (
     updated_ts     DATETIME
 );
 ```
+---
+## Sample Data
+
+### `customer_profile_staging`
+
+| batch_id | customer_id | customer_name | email               | updated_ts         |
+|----------|-------------|---------------|---------------------|--------------------|
+| 101 | 901 | John Doe  | john@mail.com       | 2024-04-01 10:00 |
+| 101 | 901 | John Doe  | john.d@mail.com     | 2024-04-01 12:30 |
+| 101 | 902 | Alice     | alice@mail.com      | 2024-04-01 09:00 |
+| 101 | 903 | Mark      | mark@mail.com       | 2024-04-01 11:00 |
+| 102 | 901 | John D.   | john.new@mail.com   | 2024-04-02 08:00 |
+| 102 | 903 | Mark      | mark@mail.com       | 2024-04-02 07:30 |
+
+---
+
+## Business Requirement
+
+Write a **T-SQL query (Microsoft SQL Server)** to identify the **latest customer profile record per customer_id** from a staging table used in an incremental load.
+
+The query must:
+
+- Handle **multiple records per customer**
+- Select the **most recent update** based on `updated_ts`
+- Use `batch_id` as a **tie-breaker** when timestamps are equal
+- Return **exactly one record per customer**
+- Be **deterministic**
+- Use **T-SQL–specific syntax**
+- Not modify the source data
+
+---
+
+## Expected Output
+
+| customer_id | customer_name | email               | updated_ts         |
+|-------------|---------------|---------------------|--------------------|
+| 901 | John D. | john.new@mail.com | 2024-04-02 08:00 |
+| 902 | Alice   | alice@mail.com    | 2024-04-01 09:00 |
+| 903 | Mark    | mark@mail.com     | 2024-04-02 07:30 |
