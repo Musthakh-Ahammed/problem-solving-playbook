@@ -94,6 +94,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Latest Record per Customer (Incremental Load)](./latest-record-per-customer-incremental-load)**  
   Deduplicate incremental customer profile records to retain only the latest update per customer using T-SQL window functions.
 
+- 📂 **[High-Value Customers by Consecutive Monthly Spend](./high-value-customers-by-consecutive-monthly-spend)**  
+  Identify customers whose total monthly spending exceeded 10,000 for at least three consecutive calendar months using T-SQL.
+
 ---
 
 ## 🎯 Why This Repo Exists
