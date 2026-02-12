@@ -97,6 +97,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[High-Value Customers by Consecutive Monthly Spend](./high-value-customers-by-consecutive-monthly-spend)**  
   Identify customers whose total monthly spending exceeded 10,000 for at least three consecutive calendar months using T-SQL.
 
+- 📂 **[Consecutive Revenue Decline Detection](./consecutive-revenue-decline-detection)**  
+  Identify customers whose revenue strictly declines for at least three consecutive calendar months using window functions and month-continuity validation in T-SQL.
+
 ---
 
 ## 🎯 Why This Repo Exists
