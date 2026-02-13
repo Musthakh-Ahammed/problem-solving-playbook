@@ -100,6 +100,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Consecutive Revenue Decline Detection](./consecutive-revenue-decline-detection)**  
   Identify customers whose revenue strictly declines for at least three consecutive calendar months using window functions and month-continuity validation in T-SQL.
 
+- 📂 **[Validate SCD Type 2 Dimension Integrity](./validate-scd-type-2-dimension-integrity)**  
+  Validate SCD Type 2 dimension integrity by detecting multiple active records, overlapping date ranges, and gaps in effective date continuity.
+
 ---
 
 ## 🎯 Why This Repo Exists
