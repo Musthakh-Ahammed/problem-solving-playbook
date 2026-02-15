@@ -103,6 +103,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Validate SCD Type 2 Dimension Integrity](./validate-scd-type-2-dimension-integrity)**  
   Validate SCD Type 2 dimension integrity by detecting multiple active records, overlapping date ranges, and gaps in effective date continuity.
 
+- 📂 **[Funnel Completion Validation (Event Sequencing)](./vafunnel-completion-validation-event-sequencing)**  
+  Identify users who completed a three-step funnel in strict chronological order using progressive event filtering in T-SQL.
+
 ---
 
 ## 🎯 Why This Repo Exists
