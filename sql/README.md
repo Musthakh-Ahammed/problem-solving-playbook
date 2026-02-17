@@ -106,6 +106,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Funnel Completion Validation (Event Sequencing)](./vafunnel-completion-validation-event-sequencing)**  
   Identify users who completed a three-step funnel in strict chronological order using progressive event filtering in T-SQL.
 
+- 📂 **[Reconstruct Current Inventory from Event Log](./reconstruct-current-inventory-from-event-log)**  
+  Reconstruct the current inventory level per product by aggregating signed stock-in and stock-out events in T-SQL.
+
 ---
 
 ## 🎯 Why This Repo Exists
