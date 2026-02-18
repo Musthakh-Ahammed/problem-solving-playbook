@@ -109,6 +109,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Reconstruct Current Inventory from Event Log](./reconstruct-current-inventory-from-event-log)**  
   Reconstruct the current inventory level per product by aggregating signed stock-in and stock-out events in T-SQL.
 
+- 📂 **[Latest Order Version for Incremental Load](./latest-order-version-for-incremental-load)**  
+  Retrieve the latest version of each order from staging using deterministic window-based deduplication in T-SQL.
+
 ---
 
 ## 🎯 Why This Repo Exists
