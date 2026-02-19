@@ -112,6 +112,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Latest Order Version for Incremental Load](./latest-order-version-for-incremental-load)**  
   Retrieve the latest version of each order from staging using deterministic window-based deduplication in T-SQL.
 
+- 📂 **[Latest Order Version for Incremental Load](./latest-order-version-for-incremental-load)**  
+  Find the highest-value order for each customer using a window function, including ties.
+
 ---
 
 ## 🎯 Why This Repo Exists
