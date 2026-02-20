@@ -115,6 +115,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Highest Order Per Customer (Window Function)](./highest-order-per-customer-window-function)**  
   Find the highest-value order for each customer using a window function, including ties.
 
+- 📂 **[Customer Retention & Revenue Analysis](./customer-retention-and-revenue-analysis)**  
+  Calculating monthly new vs returning customers, revenue metrics, retention rate, and top 3 customers by total revenue for 2025.
+
 ---
 
 ## 🎯 Why This Repo Exists
