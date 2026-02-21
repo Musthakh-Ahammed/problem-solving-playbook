@@ -118,6 +118,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Customer Retention & Revenue Analysis](./customer-retention-and-revenue-analysis)**  
   Calculating monthly new vs returning customers, revenue metrics, retention rate, and top 3 customers by total revenue for 2025.
 
+- 📂 **[Month 1 Retention (Cohort Analysis)](./month-one-retention-cohort-analysis)**  
+  Calculate Month 1 user retention by measuring next-month activity for each signup cohort using T-SQL.
+
 ---
 
 ## 🎯 Why This Repo Exists
