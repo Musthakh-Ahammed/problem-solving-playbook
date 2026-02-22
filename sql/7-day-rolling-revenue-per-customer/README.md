@@ -31,3 +31,63 @@ CREATE TABLE customer_orders (
 );
 ```
 ---
+## Sample Data
+
+### `customer_orders`
+
+| order_id | customer_id | order_date  | order_amount |
+|---------:|------------:|------------|-------------:|
+| 1 | 7001 | 2024-08-01 | 100.00 |
+| 2 | 7001 | 2024-08-03 | 200.00 |
+| 3 | 7001 | 2024-08-07 | 150.00 |
+| 4 | 7001 | 2024-08-10 | 50.00  |
+| 5 | 7002 | 2024-08-02 | 300.00 |
+| 6 | 7002 | 2024-08-08 | 100.00 |
+
+---
+
+## Business Requirement
+
+Write a **T-SQL query (Microsoft SQL Server)** to calculate the **7-day rolling revenue per customer**.
+
+Rules:
+
+- For each `order_date`, calculate total revenue for: `current order_date and the previous 6 calendar days`
+- The rolling window must be **date-based**, not row-based.
+- Customers must be handled independently.
+- Return:
+- `customer_id`
+- `order_date`
+- `rolling_7_day_revenue`
+- Use T-SQL–specific syntax.
+- Do not modify source data.
+- Ensure deterministic ordering.
+
+---
+
+## Expected Output
+
+| customer_id | order_date | rolling_7_day_revenue |
+|-------------|------------|-----------------------|
+| 7001 | 2024-08-01 | 100.00 |
+| 7001 | 2024-08-03 | 300.00 |
+| 7001 | 2024-08-07 | 450.00 |
+| 7001 | 2024-08-10 | 200.00 |
+| 7002 | 2024-08-02 | 300.00 |
+| 7002 | 2024-08-08 | 100.00 |
+
+---
+
+### Explanation
+
+**Customer 7001**
+
+- Aug 01 → 100  
+- Aug 03 → 100 + 200 = 300  
+- Aug 07 → 100 + 200 + 150 = 450  
+- Aug 10 → Only Aug 07 and Aug 10 fall within Aug 04–Aug 10 → 150 + 50 = 200  
+
+**Customer 7002**
+
+- Aug 02 → 300  
+- Aug 08 → Only Aug 08 falls within Aug 02–Aug 08 → 100  
