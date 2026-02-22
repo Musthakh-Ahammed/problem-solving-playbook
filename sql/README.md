@@ -121,6 +121,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Month 1 Retention (Cohort Analysis)](./month-one-retention-cohort-analysis)**  
   Calculate Month 1 user retention by measuring next-month activity for each signup cohort using T-SQL.
 
+- 📂 **[7-Day Rolling Revenue per Customer](./7-day-rolling-revenue-per-customer)**  
+  Calculate 7-day rolling revenue per customer using a date-based self-join window in T-SQL.
+
 ---
 
 ## 🎯 Why This Repo Exists
