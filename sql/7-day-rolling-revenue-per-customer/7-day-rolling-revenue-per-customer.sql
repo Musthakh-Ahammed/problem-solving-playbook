@@ -1,1 +1,2 @@
 
+SELECt * from table
