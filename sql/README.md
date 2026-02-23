@@ -124,6 +124,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[7-Day Rolling Revenue per Customer](./7-day-rolling-revenue-per-customer)**  
   Calculate 7-day rolling revenue per customer using a date-based self-join window in T-SQL.
 
+- 📂 **[Detect New or Changed Records for Incremental Merge](./detect-new-or-changed-records-for-incremental-merge)**  
+  Identify new and changed records between staging and fact tables using NULL-safe comparisons for incremental ETL processing.
+
 ---
 
 ## 🎯 Why This Repo Exists
