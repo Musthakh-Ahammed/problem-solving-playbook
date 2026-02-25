@@ -130,6 +130,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Build SCD Type 2 Effective Date Ranges](./build-scd-type-2-effective-date-ranges)**  
   Generate SCD Type 2 effective date ranges by detecting attribute changes and deriving version boundaries using window functions in T-SQL.
 
+- 📂 **[Build User Sessions from Event Logs](./build-user-sessions-from-event-logs)**  
+  Reconstruct user sessions by detecting 30-minute event gaps and generating sequential session IDs using window functions in T-SQL.
+
   
 ---
 
