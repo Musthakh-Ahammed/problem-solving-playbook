@@ -133,7 +133,10 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Build User Sessions from Event Logs](./build-user-sessions-from-event-logs)**  
   Reconstruct user sessions by detecting 30-minute event gaps and generating sequential session IDs using window functions in T-SQL.
 
-  
+- 📂 **[Top 2 Products per Category by Revenue](./top-2-products-per-category-by-revenue)**  
+  Retrieve the top 2 revenue-generating products per category using aggregation and tie-aware ranking in T-SQL.
+
+
 ---
 
 ## 🎯 Why This Repo Exists
