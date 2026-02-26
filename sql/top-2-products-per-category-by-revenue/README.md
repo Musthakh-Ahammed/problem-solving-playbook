@@ -1,4 +1,4 @@
-# SQL Daily Practice – Top 2 Products per Category by Revenue
+# Top 2 Products per Category by Revenue
 
 **Difficulty:** Intermediate  
 **Database:** Microsoft SQL Server (T-SQL)  
