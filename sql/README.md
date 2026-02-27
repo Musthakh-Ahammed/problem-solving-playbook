@@ -136,6 +136,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Top 2 Products per Category by Revenue](./top-2-products-per-category-by-revenue)**  
   Retrieve the top 2 revenue-generating products per category using aggregation and tie-aware ranking in T-SQL.
 
+- 📂 **[Detect Duplicate Payments Within 5 Minutes](./detect-duplicate-payments-within-5-minutes)**  
+  Detect duplicate payment transactions by identifying same-customer, same-amount events occurring within 5 minutes using LAG and time-based filtering in T-SQL.
+
 
 ---
 
