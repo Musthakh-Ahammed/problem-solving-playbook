@@ -139,6 +139,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Detect Duplicate Payments Within 5 Minutes](./detect-duplicate-payments-within-5-minutes)**  
   Detect duplicate payment transactions by identifying same-customer, same-amount events occurring within 5 minutes using LAG and time-based filtering in T-SQL.
 
+- 📂 **[Incremental Load Using Watermark (High-Water Mark Pattern)](./incremental-load-using-watermark-high-water-mark-pattern)**  
+  Implement incremental ETL loading by filtering source records using a dynamically retrieved high-water mark timestamp in T-SQL.
+
 
 ---
 
