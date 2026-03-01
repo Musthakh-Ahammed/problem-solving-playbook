@@ -142,6 +142,9 @@ The goal is **depth over volume** — clean logic, correct results, and performa
 - 📂 **[Incremental Load Using Watermark (High-Water Mark Pattern)](./incremental-load-using-watermark-high-water-mark-pattern)**  
   Implement incremental ETL loading by filtering source records using a dynamically retrieved high-water mark timestamp in T-SQL.
 
+- 📂 **[Identify Churned Customers (90-Day Inactivity Rule)](./identify-churned-customers-90-day-inactivity-rule)**  
+  Identify churned customers by calculating days since their last order and filtering those inactive for more than 90 days in T-SQL.
+
 
 ---
 
